@@ -82,5 +82,9 @@ the ground halting your fall. Space tells matter how to move. Matter tells space
 	# Add solar system and black holes 
 </pre>
 
+Reference:
+[Simulating Gravity in C++ - kavan](https://www.youtube.com/@kevkev-70/videos)
+[Learn by Building - real projects for physics, robotics & graphics](https://learn.kavang.com/)
+
 
 

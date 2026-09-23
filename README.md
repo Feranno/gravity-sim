@@ -73,7 +73,10 @@ todo: <br>
 	# need a Shader program with vertex array objects and vertex buffer objects 
 # render a sphere 
 # Gravity is the pull factor of masses towards each other. This is not accurate. It was, until Einstein's relativity theory. 
-# Gravity isn’t a force at all. When you stand still, the ground pushes you up. This is called the normal force, and it stops you from following the natural curvature of space time towards Earth’s center. According to Einstein, gravity is a phenomenon of gravity curving space time.Forces, like the normal force, only act to resist the path of the geometry of space time, like the ground halting your fall. Space tells matter how to move. Matter tells space how to curve. 
+# Gravity isn’t a force at all. When you stand still, the ground pushes you up. This is called the normal force, and it stops 
+you from following the natural curvature of space time towards Earth’s center. According to Einstein, gravity is a phenomenon 
+of gravity curving space time.Forces, like the normal force, only act to resist the path of the geometry of space time, like 
+the ground halting your fall. Space tells matter how to move. Matter tells space how to curve. 
 	# Visualizing curved space time 
 	# Implement Flamm’s paraboloid 
 	# Add solar system and black holes 

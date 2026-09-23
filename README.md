@@ -62,5 +62,25 @@ observations: <br>
 *the Sun wobbles due to the gravitational pull of planets that are closer and have more mass! <br>
 
 
+todo: <br>
+// add a border collision function <br>
+// symmetrical simulation <br>
+// object cluster <br>
+// start from scratch <br>
+// make it 3D <br>
+	// need a camera with an fov position and direction <br>
+	// need a Shader program with vertex array objects and vertex buffer objects <br>
+// render a sphere <br>
+// Gravity is the pull factor of masses towards each other. This is not accurate. It was, until Einstein's relativity theory. <br>
+// Gravity isn’t a force at all. When you stand still, the ground pushes you up. This is called the normal force, and it stops you from following the natural curvature of space time towards Earth’s center. According to Einstein, gravity is a phenomenon of gravity curving space time.Forces, like the normal force, only act to resist the path of the geometry of space time, like the ground halting your fall. Space tells matter how to move. Matter tells space how to curve. <br>
+	// Visualizing curved space time <br>
+	// Implement Flamm’s paraboloid <br>
+	// Add solar system and black holes <br>
+
+goal:
+<img src="Screenshot%202026-09-23%20at%2012.18.17%20AM.png"
+     alt="2D gravity simulator" width="400">
+
+
 
 

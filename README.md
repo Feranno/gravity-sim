@@ -80,7 +80,7 @@ todo: <br>
 </pre>
 
 goal:
-<img src="media/Screenshot%202026-09-23%20at%2012.18.17%20AM.png"
+<img src="media/Screenshot%202026-09-23%20at%2012.18.17%E2%80%AFAM.png"
      alt="2D gravity simulator" width="400">
 
 

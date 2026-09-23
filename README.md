@@ -11,7 +11,8 @@ The parameter cx, cy, and r is fed into the draw circle function.
 Draw triangles using the graphics library functions begin(triangle_fan), vertex(x,y), and end().
 Use the following trigonometric identities cos(angle), sin(angle).
 
-![Constructing a Circle](media/Screenshot%202026-09-17%20at%201.22.08%E2%80%AFAM.png)
+<img src="media/Screenshot%202026-09-17%20at%201.22.08%E2%80%AFAM.png"
+    alt="Constructing a Circle" width="400">
 
 
 
@@ -26,7 +27,8 @@ Update velocity  = acceleration * dt;
 Update position = velocity * dt;
 Planet.position = updated position;
 
-![Moving Planets](media/Screenshot%202026-09-18%20at%2012.04.46%E2%80%AFAM.png)
+<img src="media/Screenshot%202026-09-18%20at%2012.04.46%E2%80%AFAM.png"
+     alt="Moving Planets" width="400">
 
 #### III. 2D gravity. Planets don’t move linearly, they affect the planets around them given their relative distance and mass. This push and pull phenomenon is described by Newton's Orbital Mechanics. 
 
@@ -50,8 +52,8 @@ outside the for loop:
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time. 
 
 ##### Newton's Orbital Mechanics (it’s a video)
-[Watch the 2D gravity simulator](2d-gravity-sim.mov)
-
+<img src="2d-gravity-sim.gif"
+     alt="2D gravity simulator" width="400">
 observations:
 *planets fling out once they accelerate too close into the orbit
 *planets move faster the closer they get to the Sun

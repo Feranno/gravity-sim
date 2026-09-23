@@ -54,6 +54,7 @@ nudge the planet's velocity for some delta t, and nudge the planet's position fo
 ##### Newton's Orbital Mechanics (it’s a video)
 <img src="2d-gravity-sim.gif"
      alt="2D gravity simulator" width="400">
+
 observations:
 *planets fling out once they accelerate too close into the orbit
 *planets move faster the closer they get to the Sun

@@ -1,6 +1,7 @@
-# 9/17: 
+### 9/17: 
 
-### I. I successfully drew a circle using the method of triangulation. The process works as follows. 
+#### I. Circle by method of triangulation
+The first step is to render a circle. The process works as follows. 
 
 The intuition: 
 Say you want to draw a circle on a canvas. The display only recognizes triangles. Say you draw a triangle with vertices: (0, 0), (50, 0), (0, 50). The graphics library can render better approximations of a circle with more pizza slices.
@@ -10,12 +11,13 @@ The parameter cx, cy, and r is fed into the draw circle function.
 Draw triangles using the graphics library functions begin(triangle_fan), vertex(x,y), and end().
 Use the following trigonometric identities cos(angle), sin(angle).
 
-![Constructing a Circle](media/Screenshot 2026-09-17 at 1.22.08 AM.png)
+![Constructing a Circle](media/Screenshot%2026-09-17%at%1.22.08%AM.png)
 
 
 
-# 9/18:
-## II. Moving planets. The next step would be to implement movement. Planets accelerate and have velocity on top of their position coordinates. 
+### 9/18:
+#### II. Moving planets. 
+The next step would be to implement movement. Planets accelerate and have velocity on top of their position coordinates. 
 
 The intuition:
 Say you want to implement an acceleration and velocity feature every time the canvas updates. 
@@ -24,9 +26,9 @@ Update velocity  = acceleration * dt;
 Update position = velocity * dt;
 Planet.position = updated position;
 
-![Moving Planets](media/Screenshot 2026-09-18 at 12.04.46 AM.png)
+![Moving Planets](media/Screenshot%202026-09-18%20at%2012.04.46%E2%80%AFAM.png)
 
-## III. 2D gravity. Planets don’t move linearly, they affect the planets around them given their relative distance and mass. This push and pull phenomenon is described by Newton's Orbital Mechanics. 
+#### III. 2D gravity. Planets don’t move linearly, they affect the planets around them given their relative distance and mass. This push and pull phenomenon is described by Newton's Orbital Mechanics. 
 
 The intuition:
 Say we have the Sun and three other planets. We can describe the planet being moved as p and other planets as other. We can show the position of p after some dt as follows:
@@ -47,7 +49,8 @@ ay += a * (dy / r);
 outside the for loop:
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time. 
 
-### Newton's Orbital Mechanics (it’s a video)
+##### Newton's Orbital Mechanics (it’s a video)
+![2d-gravity-simulator](2d-gravity-sim.mov)
 
 observations:
 *planets fling out once they accelerate too close into the orbit

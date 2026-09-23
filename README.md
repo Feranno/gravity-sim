@@ -52,7 +52,7 @@ outside the for loop:
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time. 
 
 ##### Newton's Orbital Mechanics (it’s a video)
-<img src="2d-gravity-sim.gif"
+<img src="media/2d-gravity-sim.gif"
      alt="2D gravity simulator" width="400">
 
 observations:

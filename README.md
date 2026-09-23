@@ -30,7 +30,8 @@ Planet.position = updated position; <br>
 <img src="media/Screenshot%202026-09-18%20at%2012.04.46%E2%80%AFAM.png"
      alt="Moving Planets" width="400">
 
-#### III. 2D gravity. Planets don’t move linearly, they affect the planets around them given their relative distance and mass. This push and pull phenomenon is described by Newton's Orbital Mechanics. <br>
+#### III. 2D gravity. 
+Planets don’t move linearly, they affect the planets around them given their relative distance and mass. This push and pull phenomenon is described by Newton's Orbital Mechanics. <br>
 
 The intuition: <br>
 Say we have the Sun and three other planets. We can describe the planet being moved as p and other planets as other. We can show the position of p after some dt as follows: <br>

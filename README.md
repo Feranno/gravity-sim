@@ -63,7 +63,6 @@ observations: <br>
 
 
 todo: <br>
-<pre>
 # add a border collision function <br>
 # symmetrical simulation <br>
 # object cluster <br>
@@ -77,7 +76,6 @@ todo: <br>
 	# Visualizing curved space time <br>
 	# Implement Flamm’s paraboloid <br>
 	# Add solar system and black holes <br>
-</pre>
 
 goal: <br>
 <img src="media/Screenshot%202026-09-23%20at%2012.18.17%E2%80%AFAM.png"

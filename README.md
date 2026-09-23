@@ -52,7 +52,7 @@ ay += a * (dy / r); <br>
 outside the for loop: <br>
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time.  <br>
 
-##### Newton's Orbital Mechanics (it’s a video)
+##### Newton's Orbital Mechanics
 <img src="media/2d-gravity-sim.gif"
      alt="2D gravity simulator" width="400">
 

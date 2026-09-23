@@ -11,7 +11,7 @@ The parameter cx, cy, and r is fed into the draw circle function.
 Draw triangles using the graphics library functions begin(triangle_fan), vertex(x,y), and end().
 Use the following trigonometric identities cos(angle), sin(angle).
 
-![Constructing a Circle](media/Screenshot%2026-09-17%at%1.22.08%AM.png)
+![Constructing a Circle](media/Screenshot%202026-09-17%20at%201.22.08%E2%80%AFAM.png)
 
 
 
@@ -50,7 +50,7 @@ outside the for loop:
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time. 
 
 ##### Newton's Orbital Mechanics (it’s a video)
-![2d-gravity-simulator](2d-gravity-sim.mov)
+[Watch the 2D gravity simulator](2d-gravity-sim.mov)
 
 observations:
 *planets fling out once they accelerate too close into the orbit

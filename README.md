@@ -49,9 +49,13 @@ set acceleration of x and y directions to 0. <br>
 for every other planet p1, p2, p3… pn, not including our planet pi: <br>
 
 first find the distance r <br>
-dx = other.x - p.x; <br>
-dy = other.y - p.y; <br>
-r = sqrt(dx^ 2 + dy^2) <br>
+$$
+\begin{aligned}
+dx &= \text{other.x} - p.x \\
+dy &= \text{other.y} - p.y \\
+r &= \sqrt{dx^2 + dy^2}
+\end{aligned}
+$$
 
 calculate the acceleration (nudge) from every other planet and add it to ax and ay <br>
 a = Gm/r^2 <br>

@@ -23,9 +23,9 @@ The next step would be to implement movement. Planets accelerate and have veloci
 The intuition: <br>
 Say you want to implement an acceleration and velocity feature every time the canvas updates. <br>
 For each planet: <br>
-Update velocity  = acceleration * dt; <br>
-Update position = velocity * dt; <br>
-Planet.position = updated position; <br>
+First, update the velocity using $\text{velocity} = \text{velocity} + \text{acceleration} \cdot dt$. 
+Next, calculate the new position with $\text{position} = \text{position} + \text{velocity} \cdot dt$. 
+Finally, assign it to the object: $\text{Planet.position} = \text{position}$.
 
 <img src="media/Screenshot%202026-09-18%20at%2012.04.46%E2%80%AFAM.png"
      alt="Moving Planets" width="400">

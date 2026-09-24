@@ -24,13 +24,14 @@ The intuition: <br>
 Say you want to implement an acceleration and velocity feature every time the canvas updates. <br>
 For each planet: <br>
 
-<div align="left">
+
 $$
+\begin{flalign}
 \text{velocity}_{\text{new}} = \text{velocity}_{\text{old}} + \text{acceleration} \cdot dt \\
 \text{position}_{\text{new}} = \text{position}_{\text{old}} + \text{velocity}_{\text{new}} \cdot dt \\
 \text{Planet.position} = \text{position}_{\text{new}} 
+\end{flalign}
 $$
-</div>
 
 <img src="media/Screenshot%202026-09-18%20at%2012.04.46%E2%80%AFAM.png"
      alt="Moving Planets" width="400">
@@ -46,27 +47,23 @@ for every other planet p1, p2, p3… pn, not including our planet pi: <br>
 
 first find the distance r <br>
 
-<div align="left">
 $$
-\begin{aligned}
+\begin{flalign}
 dx &= \text{other.x} - p.x \\
 dy &= \text{other.y} - p.y \\
 r &= \sqrt{dx^2 + dy^2}
-\end{aligned}
+\end{flalign}
 $$
-</div>
 
 calculate the acceleration (nudge) from every other planet and add it to ax and ay <br>
 
-<div align="left">
 $$
-\begin{aligned}
+\begin{flalign}
 a &= \frac{G \cdot m}{r^2} \\
 a_x &\mathrel{+}= a \cdot \left(\frac{dx}{r}\right) \\
 a_y &\mathrel{+}= a \cdot \left(\frac{dy}{r}\right)
-\end{aligned}
+\end{flalign}
 $$
-</div>
 
 outside the for loop: <br>
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time.  <br>

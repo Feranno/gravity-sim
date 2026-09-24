@@ -27,9 +27,9 @@ For each planet: <br>
 
 $$
 \begin{flalign}
-\text{velocity}_{\text{new}} = \text{velocity}_{\text{old}} + \text{acceleration} \cdot dt \\
-\text{position}_{\text{new}} = \text{position}_{\text{old}} + \text{velocity}_{\text{new}} \cdot dt \\
-\text{Planet.position} = \text{position}_{\text{new}} 
+\text{velocity}_{\text{new}} = \text{velocity}_{\text{old}} + \text{acceleration} \cdot dt &\\
+\text{position}_{\text{new}} = \text{position}_{\text{old}} + \text{velocity}_{\text{new}} \cdot dt &\\
+\text{Planet.position} = \text{position}_{\text{new}} &
 \end{flalign}
 $$
 
@@ -49,9 +49,9 @@ first find the distance r <br>
 
 $$
 \begin{flalign}
-dx &= \text{other.x} - p.x \\
-dy &= \text{other.y} - p.y \\
-r &= \sqrt{dx^2 + dy^2}
+dx &= \text{other.x} - p.x &\\
+dy &= \text{other.y} - p.y &\\
+r &= \sqrt{dx^2 + dy^2} &
 \end{flalign}
 $$
 
@@ -59,9 +59,9 @@ calculate the acceleration (nudge) from every other planet and add it to ax and 
 
 $$
 \begin{flalign}
-a &= \frac{G \cdot m}{r^2} \\
-a_x &\mathrel{+}= a \cdot \left(\frac{dx}{r}\right) \\
-a_y &\mathrel{+}= a \cdot \left(\frac{dy}{r}\right)
+a &= \frac{G \cdot m}{r^2} &\\
+a_x &\mathrel{+}= a \cdot \left(\frac{dx}{r}\right) &\\
+a_y &\mathrel{+}= a \cdot \left(\frac{dy}{r}\right) &
 \end{flalign}
 $$
 

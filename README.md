@@ -59,9 +59,14 @@ r &= \sqrt{dx^2 + dy^2}
 $$
 
 calculate the acceleration (nudge) from every other planet and add it to ax and ay <br>
-a = Gm/r^2 <br>
-ax += a * (dx / r); <br>
-ay += a * (dy / r); <br>
+
+$$
+\begin{aligned}
+a &= \frac{G \cdot m}{r^2} \\
+a_x &\mathrel{+}= a \cdot \left(\frac{dx}{r}\right) \\
+a_y &\mathrel{+}= a \cdot \left(\frac{dy}{r}\right)
+\end{aligned}
+$$
 
 outside the for loop: <br>
 nudge the planet's velocity for some delta t, and nudge the planet's position for some delta t to get our new and updated position with respect to a tiny change in time.  <br>

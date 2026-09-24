@@ -49,6 +49,7 @@ set acceleration of x and y directions to 0. <br>
 for every other planet p1, p2, p3… pn, not including our planet pi: <br>
 
 first find the distance r <br>
+
 $$
 \begin{aligned}
 dx &= \text{other.x} - p.x \\
